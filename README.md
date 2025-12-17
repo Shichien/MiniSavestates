@@ -1,6 +1,10 @@
 # MiniSavestates
 
-### How to use
+This build is an emergency build to test the differences between public-test version and released version. It is for testing only. I will not be responsible for any special circumstances such as archive corruption. Before enabling related functions, please back up the original `Aseembly-CSharp.dll` and archive saves yourself.
+
+After testing by a of friends from the speedrunning community, it can run on the public beta version.
+
+## How to use
 
 The keybinds are customizable in `<saves location>/minisavestates.json` and by default it is
 ```json
@@ -9,17 +13,6 @@ The keybinds are customizable in `<saves location>/minisavestates.json` and by d
     "SaveStateButton": "f2"
 }
 ```
-When you save a state it gets saved to the file `<saves location>/minisavestates-saved.json`
 
-# MultiSaveStates
-
-The same as MiniSavestates, but with multiple slots (5 or 10, depending of the project).
-
-### How to use
-
-The keybinds are customizable in `<saves location>/minisavestates1.json` and by default have the same value as in MiniSavestates.
-
-### Change slot
-
-To change savestate slot, simply press any KeyCode.Alpha (between 0-9).
-After changing slot, you can save/load the savestate normally using the keybinds (by default, the same as MiniSavestates).
+> [!WARNING]
+> Multi-save point archiving is not supported now.
